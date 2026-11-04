@@ -1,0 +1,31 @@
+{
+  "name": "projeto02-fullstack-back-end",
+  "version": "1.0.0",
+  "description": "Desenvolvimento da parte Back-End do Projeto 02 Full Stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoACarboni/projeto02-fullstack-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JoaoACarboni/projeto02-fullstack-back-end/issues"
+  },
+  "homepage": "https://github.com/JoaoACarboni/projeto02-fullstack-back-end#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  }
+}
